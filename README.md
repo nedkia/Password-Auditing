@@ -6,7 +6,10 @@ Contents:
 
 Tool Overview
 
-Capabilities 1. Password Cracking: Currently John the Ripper is being used in the industry to test the complexity of passwords. John The Ripper can crack most simple passwords, and it's generally noted that if a password can be easily cracked using John The Ripper, it is not a strong enough password. 2. Attack Modes: John The Ripper is capable of performing different types of password attacks
+# Capabilities 
+      1. Password Cracking: Currently John the Ripper is being used in the industry to test the complexity of passwords. John The Ripper can crack most simple    passwords, and it's generally noted that if a password can be easily cracked using John The Ripper, it is not a strong enough password.
+      
+      2. Attack Modes: John The Ripper is capable of performing different types of password attacks
 
 Brute Force: Brute force attacks rapidly tries every password combination until it is able to crack a password. Generally this attack is only successful under two conditions: The password is very short (which will make the number of guesses a feasible amount) or the CPU/GPU is so powerful that it is able to rapidly guess every combination until it reaches the password. For longer passwords, this can only be done using Quantum computing.
 Rainbow Table: A rainbow table attempts to solve some of the computational issues that a brute force attack has by doing their computations beforehand. Rainbow tables are large lists of passwords and their corresponding hashes. When a rainbow table attack is performed, the CPU/GPU quickly attempts to match the hash that it is given to a known hash in the rainbow table database. This drastically improves the time it takes to match a hash with a password because the hash is always calculated before the attack is attempted. The drawback to this is that the rainbow table can only crack hashes that it already has and if someone uses a password that hasn't been calculated already, then the rainbow table will never find it.
