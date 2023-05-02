@@ -18,3 +18,6 @@ Page 16: UPAT Integration
 Page 17-19: PGAN Integration, Artifical Intelligence 
 
 Page 20-21: Kali Linux Integration, Conclusion
+
+![image](https://user-images.githubusercontent.com/78882341/235720522-d956dda3-8a72-405e-bf0e-0b5c0010cc0b.png)
+
