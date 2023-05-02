@@ -1,4 +1,4 @@
-Tool: John the Ripper
+Tools: John the Ripper, Kali Linux
 
 Contents:
 
